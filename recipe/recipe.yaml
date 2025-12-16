@@ -1,5 +1,5 @@
 context:
-  version: "0.4.3"
+  version: "0.4.4"
 
 package:
   name: tuios
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Gaurav-Gosain/tuios/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: be365d6a7568193655f2d049b2f2f95c8f27fd86bc3e6d15dca9429631ab5d12
+  sha256: 76e0acae946d7ec7549269be610d18b17abcf55d54e9ad683ed52808794a343e
 
 build:
-  number: 1
+  number: 0
   script:
     - if: unix
       then:
